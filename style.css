@@ -1,3 +1,11 @@
+html, body { margin: 0px; padding: 0px; border: 0px; }
+
+body{
+  font-family: arial, helvetica;
+  font-size:14px;
+}
+
+
 #Logo{
   position: absolute;
   top:20%;
@@ -24,4 +32,27 @@
 #noroc{
   position: relative;
   left:20%;
+}
+#text_sub_butoane{
+  position: relative;
+  top:15px;
+  left:20%;
+}
+#stanga_jos{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+#dreapta_jos{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+#gri_jos{
+  position: absolute;
+  height: 35px;
+  width: 100%;
+  background-color: lightgrey;
+  bottom: 0px;
+
 }
