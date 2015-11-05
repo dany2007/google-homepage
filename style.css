@@ -1,0 +1,27 @@
+#Logo{
+  position: absolute;
+  top:20%;
+  left:35%;
+  }
+#search_box{
+    position: relative;
+    top:40px;
+    left:-10%;
+  }
+#box{
+  width:500px;
+  height: 20px;
+  border: 1px solid grey;
+}
+#butoane{
+  position: relative;
+  top: 15px;
+}
+#cautare{
+  position: relative;
+  left:20%;
+}
+#noroc{
+  position: relative;
+  left:20%;
+}
