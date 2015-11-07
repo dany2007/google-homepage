@@ -7,52 +7,83 @@ body{
 
 
 #Logo{
-  position: absolute;
-  top:20%;
-  left:35%;
-  }
-#search_box{
-    position: relative;
-    top:40px;
-    left:-10%;
-  }
-#box{
-  width:500px;
-  height: 20px;
-  border: 1px solid grey;
+  position:absolute;
+  background-image: url(google_logo.png);
+  background-repeat: no-repeat;
+  background-size: 272px 92px;
+  height: 92px;
+  width: 272px;
+  top:25%;
+  left:40%;
 }
+
+
+#div_search_box{
+    position: relative;
+    top:112px;
+    float:left;
+    left:-50%
+}
+
+#box{
+  width:600px;
+  height: 30px;
+  border: 1px solid #0266C8;
+
+}
+
 #butoane{
   position: relative;
   top: 15px;
+  word-spacing: 165px;
 }
+
 #cautare{
   position: relative;
-  left:20%;
+  /*left:140px;*/
+  left:23%;
+  box-decoration-break:
 }
+
 #noroc{
   position: relative;
-  left:20%;
+  /*left:20%;*/
 }
+
+input{
+  width: 20%;
+  height: 30px;
+}
+
 #text_sub_butoane{
-  position: relative;
-  top:15px;
+  position: absolute;
+  top:40px;
   left:20%;
+  word-spacing: normal;
 }
 #stanga_jos{
   position: absolute;
-  bottom: 5px;
-  left: 5px;
+  bottom: 15px;
+  left: 20px;
+  word-spacing: 15px;
 }
 #dreapta_jos{
   position: absolute;
-  bottom: 5px;
-  right: 10px;
+  bottom: 15px;
+  right: 20px;
+  word-spacing: 15px;
 }
+
 #gri_jos{
   position: absolute;
-  height: 35px;
+  height: 45px;
   width: 100%;
-  background-color: lightgrey;
+  background-color: rgb(240,240,240);
   bottom: 0px;
+}
 
+a{
+  font-family: Arial, Helvetica, Verdana;
+  color: #ADADAD;
+  text-decoration: none;
 }
